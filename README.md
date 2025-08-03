@@ -1,12 +1,14 @@
+# Run and deploy your AI Studio app
 
-# SENEGRA LOGISTIQUE
+This contains everything you need to run your app locally.
 
-This is a showcase website for SENEGRA LOGISTIQUE, detailing their expertise in BTP, civil engineering, equipment rental, sales, and transport. The site is built with React and Tailwind CSS, served as a static application.
+## Run Locally
 
-## Deployment on Vercel
+**Prerequisites:**  Node.js
 
-This project is ready for a seamless deployment on Vercel.
 
-1.  **Connect your Git repository (containing these files) to a new Vercel project.**
-2.  **Vercel will automatically detect this as a static site.** No framework preset or build command configuration is necessary. The included `vercel.json` file ensures the correct platform version is used.
-3.  **Click "Deploy".** Your site will be live in minutes.
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
