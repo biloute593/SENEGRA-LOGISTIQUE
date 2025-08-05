@@ -14,7 +14,8 @@ const Header: React.FC<HeaderProps> = ({ requestCount }) => {
         <header className="bg-brand-dark/90 backdrop-blur-sm sticky top-0 z-50 shadow-lg">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-20">
-                    <div className="flex-shrink-0">
+                    <div className="flex-shrink-0 flex items-center space-x-3">
+                        <img src="/assets/logo-senegra.png" alt="Logo SENEGRA" className="h-12 w-12 rounded-full shadow-lg" />
                         <a href="#home" className="text-white font-display text-4xl font-bold tracking-wider">
                             SENEGRA <span className="text-brand-yellow">LOGISTIQUE</span>
                         </a>
