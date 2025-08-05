@@ -1,5 +1,6 @@
 
 import React from 'react';
+// TEST MODIFICATION POUR GIT
 import { PRODUCTS_FOR_SALE } from '../constants';
 import type { Product, RequestItem } from '../types';
 
