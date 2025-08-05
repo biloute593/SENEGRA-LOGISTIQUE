@@ -102,6 +102,30 @@ export const PRODUCTS_FOR_SALE: Product[] = [
   { id: 'sale-2', name: 'Conteneur 40 pieds', description: 'Conteneur maritime vide, état quasi neuf.', imageUrl: 'https://images.unsplash.com/photo-1617454800326-9990263f350c?q=80&w=400&h=300&fit=crop' },
   { id: 'sale-3', name: 'Lot de pièces hydrauliques', description: 'Pompes, vérins et distributeurs divers.', imageUrl: 'https://images.unsplash.com/photo-1558556403-349e5d4474a8?q=80&w=400&h=300&fit=crop' },
   { id: 'sale-4', name: 'Camion Renault Kerax 6x4', description: 'Véhicule d\'occasion, révisé et garanti.', imageUrl: 'https://images.unsplash.com/photo-1627993355535-a6e5b4f84a44?q=80&w=400&h=300&fit=crop' },
+  {
+    id: 'sale-1',
+    name: 'Moteur Perkins',
+    description: "Moteur diesel reconditionné, prêt à l'emploi.",
+    imageUrl: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=400&h=300&fit=crop' // chantier africain
+  },
+  {
+    id: 'sale-2',
+    name: 'Conteneur 40 pieds',
+    description: 'Conteneur maritime vide, état quasi neuf.',
+    imageUrl: 'https://images.unsplash.com/photo-1464983953574-0892a716854b?q=80&w=400&h=300&fit=crop' // port africain
+  },
+  {
+    id: 'sale-3',
+    name: 'Lot de pièces hydrauliques',
+    description: 'Pompes, vérins et distributeurs divers.',
+    imageUrl: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?q=80&w=400&h=300&fit=crop' // engins BTP Afrique
+  },
+  {
+    id: 'sale-4',
+    name: 'Camion Renault Kerax 6x4',
+    description: "Véhicule d'occasion, révisé et garanti.",
+    imageUrl: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=400&h=300&fit=crop' // camion logistique Afrique
+  },
 ];
 
 export const PROJECTS: Project[] = [
